@@ -20,17 +20,17 @@
             android:id="@+id/btnRow11"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:background="@android:color/holo_green_dark"
             android:layout_marginLeft="3pt"
-             />
+            android:background="@android:color/holo_green_dark"
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow12"
             android:layout_width="40pt"
             android:layout_height="40pt"
-            android:background="@android:color/holo_green_dark"
             android:layout_marginLeft="3pt"
-             />
+            android:background="@android:color/holo_green_dark"
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow13"
@@ -38,7 +38,7 @@
             android:layout_height="40pt"
             android:layout_marginLeft="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
     </TableRow>
 
     <TableRow
@@ -54,7 +54,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow22"
@@ -63,7 +63,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow23"
@@ -72,7 +72,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
     </TableRow>
 
     <TableRow
@@ -88,7 +88,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow32"
@@ -97,7 +97,7 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
 
         <Button
             android:id="@+id/btnRow33"
@@ -106,6 +106,6 @@
             android:layout_marginLeft="3pt"
             android:layout_marginTop="3pt"
             android:background="@android:color/holo_green_dark"
-             />
+            android:onClick="btnClick" />
     </TableRow>
 </TableLayout>
