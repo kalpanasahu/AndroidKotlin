@@ -1,50 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#D3D3D3"
+    android:gravity="center"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/etDOB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="142dp"
-        android:ems="10"
-        android:hint="Enter Your DOB"
-        android:inputType="date"
-        android:textColorHint="@android:color/holo_orange_dark"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <TextView
-        android:id="@+id/tvShowAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="91dp"
-        android:text="TextView"
-        android:textColor="@android:color/holo_orange_dark"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etDOB" />
 
-    <Button
-        android:id="@+id/btnGetAge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="106dp"
-        android:layout_marginBottom="275dp"
-        android:background="@android:color/holo_green_dark"
-        android:onClick="btnGetAgeClick"
-        android:text="Get My Age"
-        android:textColor="@android:color/holo_orange_dark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvShowAge" />
+    <TableRow
+        android:id="@+id/rowOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
 
+        <Button
+            android:id="@+id/btnRow11"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginLeft="3pt"
+             />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btnRow12"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginLeft="3pt"
+             />
+
+        <Button
+            android:id="@+id/btnRow13"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowTwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRow21"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+
+        <Button
+            android:id="@+id/btnRow22"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+
+        <Button
+            android:id="@+id/btnRow23"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/rowThree"
+        android:layout_width="40pt"
+        android:layout_height="40pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRow31"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+
+        <Button
+            android:id="@+id/btnRow32"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+
+        <Button
+            android:id="@+id/btnRow33"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginLeft="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/holo_green_dark"
+             />
+    </TableRow>
+</TableLayout>
