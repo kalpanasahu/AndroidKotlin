@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AndroidKotlinStart</string>
+    <string name="txt_name">Kalpana Sahu</string>
+    <string name="bio">Hi, my name is Aleks.</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_got_it">Got It</string>
+    <string name="btn_end_game">End Game</string>
+    <string name="btn_game">Game</string>
 </resources>
